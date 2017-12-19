@@ -1,0 +1,24 @@
+[core]
+        excludesfile = /Users/arthurseaton/.gitignore_global
+        editor = subl -n -w
+        pager = diff-so-fancy | less --tabs=4 -RF --pattern '^(Date|added|deleted|modified): '
+[user]
+        name = Arthur Seaton
+        email = arthur.seaton@makeitsocial.com
+[push]
+        default = simple
+[alias]
+  ll = log --pretty=format:"%C(yellow)%h%Cred%d\\ %Creset%s%Cblue\\ [%cn]%Creset" --decorate --numstat
+  ld = log --pretty=format:"%C(yellow)%h\\ %C(green)%ad%Cred%d\\ %Creset%s%Cblue\\ [%cn]%Creset" --decorate --date=short --graph
+  ls = log --pretty=format:"%C(green)%h\\ %C(yellow)[%ad]%Cred%d\\ %Creset%s%Cblue\\ [%cn]%Creset" --decorate --date=relative
+  # df = diff --unified=999999
+# Switch off the pager for stash commands
+[pager]
+  stash = false
+  log = less -RFX
+
+#[pager]
+#  diff = diff-so-fancy | less --tabs=4 -RFX --pattern '^(Date|added|deleted|modified): '
+#  stash = false
+#[diff]
+#        pager = diff-so-fancy | less --tabs=4 -RFX --pattern '^(Date|added|deleted|modified): '

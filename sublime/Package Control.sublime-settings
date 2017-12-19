@@ -1,0 +1,19 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"DocBlockr",
+		"ExpandRegion",
+		"Git Commit Message Syntax",
+		"HTML-CSS-JS Prettify",
+		"Package Control",
+		"SideBarEnhancements",
+		"SublimeLinter",
+		"SublimeLinter-contrib-eslint",
+		"SublimeLinter-json",
+		"Theme - Afterglow"
+	]
+}

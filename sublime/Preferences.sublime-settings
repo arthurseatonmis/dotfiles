@@ -1,0 +1,22 @@
+{
+	"binary_file_patterns":
+	[
+		"node_modules/**"
+	],
+	"color_scheme": "Packages/Theme - Afterglow/Afterglow.tmTheme",
+	"ensure_newline_at_eof_on_save": true,
+	"font_face": "Inconsolata",
+	"font_size": 14,
+	"highlight_line": true,
+	"ignored_packages":
+	[
+		"Vintage"
+	],
+	"status_bar_brighter": true,
+	"tab_size": 2,
+	"tabs_medium": true,
+	"tabs_padding_medium": true,
+	"theme": "Afterglow.sublime-theme",
+	"translate_tabs_to_spaces": true,
+	"trim_trailing_white_space_on_save": true
+}

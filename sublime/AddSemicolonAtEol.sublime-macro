@@ -1,0 +1,16 @@
+[
+	{
+		"args":
+		{
+			"to": "hardeol"
+		},
+		"command": "move_to"
+	},
+	{
+		"args":
+		{
+			"characters": ";"
+		},
+		"command": "insert"
+	}
+]
